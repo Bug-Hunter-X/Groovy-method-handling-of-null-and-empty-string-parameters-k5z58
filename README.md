@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in Groovy where methods might not handle null or empty string parameters as expected.  The `bug.groovy` file contains a method that doesn't explicitly check for empty strings, leading to potential unexpected behavior. The `bugSolution.groovy` file provides a corrected version that handles both null and empty string scenarios gracefully.
